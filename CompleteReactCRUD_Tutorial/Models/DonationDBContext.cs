@@ -14,6 +14,6 @@ namespace CompleteReactCRUD_Tutorial.Models
 
         }
 
-        
+        public DbSet<DCandidate> DCandidates { get; set; }
     }
 }
